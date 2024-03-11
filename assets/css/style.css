@@ -14,12 +14,20 @@ body {
   color: #444444;
 }
 
-a {
-  color: #ffc451;
+.yellow {
+  color: black;
   text-decoration: none;
 }
 
-a:hover {
+a {
+   text-decoration: none;
+}
+
+p {
+  color: black;
+}
+
+.yellow:hover {
   color: #ffd584;
   text-decoration: none;
 }
