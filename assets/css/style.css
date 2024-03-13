@@ -1563,3 +1563,20 @@ section {
   display: inline-flex;
   align-items: center;
 }
+
+/* Pour changer le fond des divs en blanc ou transparent */
+.portfolio .portfolio-wrap,
+.team .member .social a {
+  background: white; /* Changez ici en 'white' pour le fond blanc */
+}
+
+/* Pour centrer les icônes dans les divs */
+.portfolio .portfolio-wrap .portfolio-links,
+.team .member .social {
+  display: flex;
+  justify-content: center;
+}
+
+.rootme {
+  background-color: #3b3a37 !important;
+}
