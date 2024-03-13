@@ -1558,3 +1558,8 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.rowTitle {
+  display: inline-flex;
+  align-items: center;
+}
