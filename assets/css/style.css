@@ -1581,20 +1581,22 @@ section {
   background-color: #3b3a37 !important;
 }
 
-/* Ajoutez ces styles à la fin de votre fichier CSS ou dans une section de style appropriée */
-
-/* Pour que l'image reste à l'intérieur de son conteneur */
-.about .container .row .col-lg-6 img {
-  max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
-  height: auto; /* Permet à l'image de conserver son ratio d'aspect */
+.codingame {
+  background-color: #FCD207 !important;
 }
 
-/* Pour que le texte ne se superpose pas à l'image sur les petits écrans */
+
+.about .container .row .col-lg-6 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 @media (max-width: 768px) {
   .about .container .row {
-    flex-direction: column; /* Afficher les éléments en colonne sur les petits écrans */
+    flex-direction: column;
   }
   .about .container .row .col-lg-6 img {
-    margin-bottom: 20px; /* Ajouter un espacement en bas de l'image */
+    margin-bottom: 20px;
   }
 }
