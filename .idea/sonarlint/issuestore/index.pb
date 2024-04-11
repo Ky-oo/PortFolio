@@ -13,5 +13,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 Å
 Q.idea/sonarlint/securityhotspotstore/1/a/1a089276572549feadb2cf0f549079264df9ef17,1\c\1cade57ad8a9600bcf2f3f42c2c195ea5873f37f
-9
-	awoc.html,2\b\2bafa461264afb42f2b4b2466d2887a8a8fb9082
+A
+projets/awoc.html,2\2\22f2a13693d439324ba44457d92a73b8a9984833
