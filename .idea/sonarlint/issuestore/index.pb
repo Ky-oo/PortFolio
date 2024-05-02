@@ -15,3 +15,6 @@ S
 Q.idea/sonarlint/securityhotspotstore/1/a/1a089276572549feadb2cf0f549079264df9ef17,1\c\1cade57ad8a9600bcf2f3f42c2c195ea5873f37f
 A
 projets/awoc.html,2\2\22f2a13693d439324ba44457d92a73b8a9984833
+:
+
+index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
