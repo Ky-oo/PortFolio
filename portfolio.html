@@ -1,584 +1,780 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Kylian Patry - Port Folio</title>
+    <link
+      rel="icon"
+      href="assets/img/portfolio/logo_portfolio_K.png"
+      type="image/x-icon"
+    />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Kylian Patry - Port Folio</title>
-    <link rel="icon" href="assets/img/portfolio/logo_portfolio_K.png" type="image/x-icon">
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/portfolio/logo_portfolio_K.png" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/portfolio/logo_portfolio_K.png" rel="icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-<style>
-    .testbtn {
+  <body>
+    <style>
+      .testbtn {
         color: #ffffff !important;
-    }
-</style>
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top ">
-  <div class="container d-flex align-items-center justify-content-lg-between">
+      }
+    </style>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div
+        class="container d-flex align-items-center justify-content-lg-between"
+      >
+        <h1 class="logo me-auto me-lg-0">
+          <a href="index.html">KP<span>.</span></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-    <h1 class="logo me-auto me-lg-0"><a href="index.html">KP<span>.</span></a></h1>
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-    <nav id="navbar" class="navbar order-last order-lg-0">
-
-      <ul>
-
-        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-        <li><a class="nav-link scrollto" href="#presentation">Présentation</a></li>
-        <li><a class="nav-link scrollto " href="#certification">Certifications</a></li>
-        <li class="dropdown"><a href="#projet"><span>Projet</span> <i class="bi bi-chevron-down"></i></a>
+        <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a href="projets/awoc.html">Awoc</a></li>
-            <li><a href="projets/gsb_frais.html">GSB - Frais</a></li>
-            <li><a href="projets/gsb_visite.html">GSB - visite</a></li>
-              <li><a href="projets/anibi.html">Anibi</a></li>
-              <li><a href="stage/première_année.html">Stage 1ère année</a></li>
-              <li><a href="stage/seconde_année.html">Stage 2e année</a></li>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#presentation">Présentation</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#certification"
+                >Certifications</a
+              >
+            </li>
+            <li class="dropdown">
+              <a href="#projet"
+                ><span>Projet</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="projets/awoc.html">Awoc</a></li>
+                <li><a href="projets/gsb_frais.html">GSB - Frais</a></li>
+                <li><a href="projets/gsb_visite.html">GSB - visite</a></li>
+                <li><a href="projets/anibi.html">Anibi</a></li>
+                <li>
+                  <a href="stage/première_année.html">Stage 1ère année</a>
+                </li>
+                <li><a href="stage/seconde_année.html">Stage 2e année</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#veille">Veille Techno</a>
+            </li>
           </ul>
-        </li>
-        <li><a class="nav-link scrollto " href="#veille">Veille Techno</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-
-  </div>
-</header><!-- End Header -->
-
-
-<!--------------------------------------------------------------------------------------------------------------------->
-
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center justify-content-center">
-  <div class="container" data-aos="fade-up">
-
-    <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-
-      <div class="col-xl-2 col-md-4">
-      <a href="#presentation">
-        <div class="icon-box">
-          <i class='bx bx-group'></i>
-          <h3 class="testbtn">Présentation</h3>
-        </div>
-      </a>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
+    </header>
+    <!-- End Header -->
 
-      <div class="col-xl-2 col-md-4">
-      <a href="#parcours">
-        <div class="icon-box">
-          <i class='bx bx-arrow-from-left'></i>
-          <h3 class="testbtn">Parcours</h3>
-        </div>
-      </a>
-      </div>
+    <!--------------------------------------------------------------------------------------------------------------------->
 
-    <div class="col-xl-2 col-md-4">
-        <a href="#certification">
-          <div class="icon-box">
-            <i class='bx bx-task' ></i>
-            <h3 class="testbtn">Certifications</h3>
-          </div>
-        </a>
-    </div>
-
-  </div>
-
-  </div>
-</section>
-<!-- End Hero -->
-
-<main id="main">
-
-  <!-- ======= About Section ======= -->
-  <section id="presentation" class="about">
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-
-          <div class="col-lg-6">
-
-            <img src="assets/img/photo_Kylian_Foret.jpg" height="650" width="500">
-
-          </div>
-
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-          <br><br><br><br><br>
-          <h3>A propos de moi</h3>
-          <p class="fst-italic">
-            Depuis tout petit, l'informatique m'a captivé. J'ai toujours eu cette curiosité qui me poussait à comprendre
-            le fonctionnement des choses, mais l'informatique restait un domaine incompréhensible, et c'est de cette
-            incompréhension que m'est né cette passion.
-          </p>
-          <ul>
-            <li><i class="ri-check-double-line"></i> Kylian Patry</li>
-            <li><i class="ri-check-double-line"></i> 19 ans - 22/11/2004</li>
-            <li><i class="ri-check-double-line"></i> Développeur Junior BackEnd - FullStack</li>
-            <li><i class="ri-check-double-line"></i> Téléphone: 06.69.93.28.86</li>
-            <li><i class="ri-check-double-line"></i> Mail: kylian.patry@gmail.com</li>
-            <li><i class="ri-check-double-line"></i> GitHub: <a href="https://github.com/Ky-oo">github.com/Ky-oo</a></li>
-          </ul>
-          <p>
-            Ce portfolio retrace mon parcours scolaire du collège au lycée en parlant de mes projets et de mes stages.
-          </p>
-
-        </div>
-
-
-
-    </div>
-  </div>
-
-    </div>
-
-  </section><!-- End About Section -->
-
-  <style>
-    .icon-box i {
-        font-size: 30px;
-    }
-
-    .icon-box p {
-        font-size: 15px;
-    }
-</style>
-
-  <!-- ======= Clients Section ======= -->
-  <section id="connaissances" class="clients">
-    <div class="container" data-aos="zoom-in">
-
-      <div class="clients-slider swiper">
-        <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bxl-windows'></i>
-                        <p>Windows</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bxl-apple'></i>
-                        <p>Mac OS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+      <div class="container" data-aos="fade-up">
+        <div
+          class="row gy-4 mt-5 justify-content-center"
+          data-aos="zoom-in"
+          data-aos-delay="250"
+        >
+          <div class="col-xl-2 col-md-4">
+            <a href="#presentation">
               <div class="icon-box">
-                <div style="text-align: center;">
-                  <i class="bi bi-code-square"></i>
-                  <p>Linux</p>
+                <i class="bx bx-group"></i>
+                <h3 class="testbtn">Présentation</h3>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-xl-2 col-md-4">
+            <a href="#parcours">
+              <div class="icon-box">
+                <i class="bx bx-arrow-from-left"></i>
+                <h3 class="testbtn">Parcours</h3>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-xl-2 col-md-4">
+            <a href="#certification">
+              <div class="icon-box">
+                <i class="bx bx-task"></i>
+                <h3 class="testbtn">Certifications</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="presentation" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                src="assets/img/photo_Kylian_Foret.jpg"
+                height="650"
+                width="500"
+              />
+            </div>
+
+            <div
+              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <br /><br /><br /><br /><br />
+              <h3>A propos de moi</h3>
+              <p class="fst-italic">
+                Depuis tout petit, l'informatique m'a captivé. J'ai toujours eu
+                cette curiosité qui me poussait à comprendre le fonctionnement
+                des choses, mais l'informatique restait un domaine
+                incompréhensible, et c'est de cette incompréhension que m'est né
+                cette passion.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Kylian Patry</li>
+                <li>
+                  <i class="ri-check-double-line"></i> 19 ans - 22/11/2004
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Développeur Junior
+                  BackEnd - FullStack
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Téléphone: 06.69.93.28.86
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Mail:
+                  kylian.patry@gmail.com
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> GitHub:
+                  <a href="https://github.com/Ky-oo">github.com/Ky-oo</a>
+                </li>
+              </ul>
+              <p>
+                Ce portfolio retrace mon parcours scolaire du collège au lycée
+                en parlant de mes projets et de mes stages.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <style>
+        .icon-box i {
+          font-size: 30px;
+        }
+
+        .icon-box p {
+          font-size: 15px;
+        }
+      </style>
+
+      <!-- ======= Clients Section ======= -->
+      <section id="connaissances" class="clients">
+        <div class="container" data-aos="zoom-in">
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bxl-windows"></i>
+                    <p>Windows</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bxl-apple"></i>
+                    <p>Mac OS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bi bi-code-square"></i>
+                    <p>Linux</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bxl-postgresql"></i>
+                    <p>SQL</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bx-code-block"></i>
+                    <p>POO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bx-server"></i>
+                    <p>SGBD</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bxl-html5"></i>
+                    <p>HTML</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bxl-css3"></i>
+                    <p>CSS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="icon-box">
+                  <div style="text-align: center">
+                    <i class="bx bxl-php"></i>
+                    <p>PHP</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bxl-postgresql'></i>
-                        <p>SQL</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bx-code-block'></i>
-                        <p>POO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bx-server'></i>
-                        <p>SGBD</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bxl-html5'></i>
-                        <p>HTML</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bxl-css3'></i>
-                        <p>CSS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="icon-box">
-                    <div style="text-align: center;">
-                        <i class='bx bxl-php'></i>
-                        <p>PHP</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+          </div>
         </div>
         <div class="swiper-pagination"></div>
-      </div>
+      </section>
+      <!-- End Clients Section -->
 
-    </div>
-  </section>
-  <!-- End Clients Section -->
-
-  <!-- ======= Features Section ======= -->
-  <section id="parcours" class="features">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row">
-        <div class="image col-lg-6" style='background-image: url("assets/img/hero-bg.jpg");' data-aos="fade-right"></div>
-        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-          <div class="icon-box mt-2-lg-0" data-aos="zoom-in" data-aos-delay="150">
-            <br><br><br>
-            <i class="bx bx-receipt"></i>
-            <h4>Collège Jean-Jaques Gallay</h4>
-            <p>Brevet général mention Bien</p>
-          </div>
-          <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-            <i class="bx bx-cube-alt"></i>
-            <h4>Lycée Charles Poncet</h4>
-            <p>Bac Technologique STI2D option SIN mention Bien</p>
-          </div>
-          <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-            <i class="bx bx-images"></i>
-            <h4>Lycée Gabriel Fauré</h4>
-            <p>BTS SIO option Slam (en cours)</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Features Section -->
-
-  <!-- ======= Cta Section ======= -->
-  <section id="cta" class="cta">
-    <div class="container" data-aos="zoom-in">
-
-      <div class="text-center">
-        <h3>Fait durant mon BTS</h3>
-      </div>
-
-    </div>
-  </section><!-- End Cta Section -->
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="certification" class="portfolio">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Certifications</h2>
-        <p>Listes de mes certifications</p>
-      </div>
-
-      <div class="row" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-RGPD">RGPD</li>
-            <li data-filter=".filter-epreuves">Epreuves</li>
-            <li data-filter=".filter-bases">Bases de la sécurité</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-RGPD">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certif/mooc_rgpd.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Atelier RGPD CNIL</h4>
-              <p>RGPD</p>
-              <p>Obtenue le 16/03/24</p>
-              <div class="portfolio-links">
-                <a href="https://www.my-mooc.com/fr/mooc/atelier-rgpd/" target="_blank" title="Présentation Mooc RGPD Cnil"><i class="bx bx-link"></i></a>
+      <!-- ======= Features Section ======= -->
+      <section id="parcours" class="features">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="image col-lg-6"
+              style="background-image: url('assets/img/hero-bg.jpg')"
+              data-aos="fade-right"
+            ></div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+              <div
+                class="icon-box mt-2-lg-0"
+                data-aos="zoom-in"
+                data-aos-delay="150"
+              >
+                <br /><br /><br />
+                <i class="bx bx-receipt"></i>
+                <h4>Collège Jean-Jaques Gallay</h4>
+                <p>Brevet général mention Bien</p>
+              </div>
+              <div
+                class="icon-box mt-5"
+                data-aos="zoom-in"
+                data-aos-delay="150"
+              >
+                <i class="bx bx-cube-alt"></i>
+                <h4>Lycée Charles Poncet</h4>
+                <p>Bac Technologique STI2D option SIN mention Bien</p>
+              </div>
+              <div
+                class="icon-box mt-5"
+                data-aos="zoom-in"
+                data-aos-delay="150"
+              >
+                <i class="bx bx-images"></i>
+                <h4>Lycée Gabriel Fauré</h4>
+                <p>BTS SIO option Slam (en cours)</p>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Features Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
-            <div class="portfolio-wrap d-flex justify-content-center align-items-center border border-2">
-                <img src="assets/img/certif/siteon0.svg" class="img-fluid m-lg-5 mx-auto" alt="root me pro" width="232">
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="text-center">
+            <h3>Fait durant mon BTS</h3>
+          </div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="certification" class="portfolio">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Certifications</h2>
+            <p>Listes de mes certifications</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-RGPD">RGPD</li>
+                <li data-filter=".filter-epreuves">Epreuves</li>
+                <li data-filter=".filter-bases">Bases de la sécurité</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-RGPD">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certif/mooc_rgpd.png"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="portfolio-info">
-                    <h4>Root-Me</h4>
-                    <p>Epreuves</p>
-                    <div class="portfolio-links">
-                        <a href="https://www.root-me.org/?lang=fr" target="_blank" title="Découvrez Root-Me"><i class="bx bx-link"></i></a>
+                  <h4>Atelier RGPD CNIL</h4>
+                  <p>RGPD</p>
+                  <p>Obtenue le 16/03/24</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.my-mooc.com/fr/mooc/atelier-rgpd/"
+                      target="_blank"
+                      title="Présentation Mooc RGPD Cnil"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
+              <div
+                class="portfolio-wrap d-flex justify-content-center align-items-center border border-2"
+              >
+                <img
+                  src="assets/img/certif/siteon0.svg"
+                  class="img-fluid m-lg-5 mx-auto"
+                  alt="root me pro"
+                  width="232"
+                />
+                <div class="portfolio-info">
+                  <h4>Root-Me</h4>
+                  <p>Epreuves</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.root-me.org/?lang=fr"
+                      target="_blank"
+                      title="Découvrez Root-Me"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certif/pix.png"
+                  class="img-fluid"
+                  alt=""
+                  height="1540"
+                />
+                <div class="portfolio-info">
+                  <h4>Pix</h4>
+                  <p>Epreuves</p>
+                  <p>Obtenue le 22/03/24</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://pix.fr"
+                      target="_blank"
+                      title="Découvrer Pix"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bases">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certif/cisco.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Cisco NetAcad</h4>
+                  <p>Bases de la sécurité</p>
+                  <p>Obtenue le 02/02/23</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.netacad.com/fr"
+                      target="_blank"
+                      title="Découvrez NetAcad"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
+              <div
+                class="portfolio-wrap d-flex codingame justify-content-center align-items-center"
+              >
+                <img
+                  src="assets/img/certif/téléchargement.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>CodinGame</h4>
+                  <p>Epreuves</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://openclassrooms.com/fr/"
+                      target="_blank"
+                      title="Découvrez CodinGames"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
+              <div
+                class="portfolio-wrap rootme d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="assets/img/certif/root_me_pro.png"
+                  class="img-fluid m-lg-5 mx-auto"
+                  alt="root me pro"
+                  width="232"
+                />
+                <div class="portfolio-info">
+                  <h4>CCF Root-Me</h4>
+                  <p>Epreuves</p>
+                  <p>Réalisée en équipe de 5 le 08/11/23</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/"
+                      target="_blank"
+                      title="Découvrez les CCF Root-Me"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <section id="projet" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Projets</h2>
+            <p>Mes Projets</p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-12 col-md-12 mx-auto align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <a href="projets/awoc.html">
+                <div class="icon-box">
+                  <div class="icon">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAT1JREFUWEftl9ERgjAQRJdOtBM7UStRO9FKtBPtRFnHMOFMcgmcgDPhy5HzeNnbyKbBwq5mYTz4a6ADgB2AlZGqj7bXGcCl7cvP7ytXIcIcjUBkG/Y9lQI9fwTDtlRnXQpkxcNxbwOj7yaVOzIrINdHWmB2ICp191aZBLI2sNtNnXE/IL4vo0DWMP6oucX33hdZQJTR6n9G+q63mwBkAQWLRjo61rMCOWGrQprFqkJjFUq+XOfY9sn4MTVQDyYU0KYECo5axo8KJGWSCqVernLeLv2VZG01EMqCVPzwgYbElC8Dh0wkgWKZl79lQx5ZroURJRbQskwti3wlbgA2ooAPY+jiPZNLm2lsNEWrLiEdAiSjaMnz1NoSIPPx5Jg65CGe56mKPDWoqx1SoClEE5sZNgdQA8rpYVpTgTQ5X2YaVCV+T7+ZAAAAAElFTkSuQmCC"
+                    />
+                  </div>
+                  <h4 class="yellow">AWOC</h4>
+                  <p>
+                    Un projet de réseau social interne au lycée pour partager
+                    des posts sur la culture
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <a href="projets/gsb_frais.html">
+                <div class="icon-box">
+                  <div class="icon">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAARpJREFUWEftmOENwiAQhZ+TqJvoJOok6iS6iW6iTqJ9iRhsgeOgmCYef5r0etzHA8odM0yszSbGAwOSZiSl0ALARuqgwP4AcAdwDfnGgC6dw6ogmMblDGDXdwgBbQGcND1XfLvuKxUC2ncBDu8glDUobQUElXfqM87R70sCGjhUgDhXf8AGFBLUFJKWmSlkCkkKSPb/XUMlZ2DTP/VTmquAfVJAzIl42vP5aWMerr5C/X6Z7N28uIRgLjTIJH4BlA1D4NZAKpjWQGqYlkDL3DWTk1Mn/6SJrR3b9tEFnFt1jAmkgsmZMk2S7woDN3A1TAyIFQHrsppWBBMD4nt/2rRgxTApINqoFLfuXEn0VWcpfe32QxTM7ockiV672nQlfFALmwAAAABJRU5ErkJggg=="
+                    />
+                  </div>
+                  <h4 class="yellow">GSB - Frais</h4>
+                  <p>
+                    <u>Projet 1</u>: site de création de fiche de frais pour
+                    visiteur médical du groupe GSB
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <a href="projets/gsb_visite.html">
+                <div class="icon-box">
+                  <div class="icon">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATdJREFUWEftmIENwiAQRX830U10E51EnUQ30U10E+03nDkpGKAcarVJk6ah3Ov93+Nohw87ug/jwSSAriqrsRdKGRMUpyRDKcFSxnw30AzAHsDCwPQXN+cSgFw/wqR4wIDpPiVhBlAhoJXLjhWInncN4KBvhIA2/YBtCxoXZ5cDdOp9xLPmQV+KN/niWUCDByqQaQV+G4iyhOR+S4YIc3Sf9tyTuTkQi+pZQbDeaKjmQGTxaxkLoMjXDIgycbmR6itQGoawTYDEM9ElQUloDqRhJK7vG+1rU6AQDIP7MjUBKoEx81ApjAnQGBgTIN0vizdeecZfj6ub2gfKgTHPUC6MCdDYlqi6ZH+g2Gc9NjOh55N2HX4/YwEic7JPetosxjaKljtX6QiYnUGLW/KzwTJj0/g/ZJqhGzFqhSWNyoKMAAAAAElFTkSuQmCC"
+                    />
+                  </div>
+                  <h4 class="yellow">GSB - Visite</h4>
+                  <p>
+                    <u>Projet 2</u>: application de rapport de visite pour
+                    visiteur médical du groupe GSB
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <a href="projets/anibi.html">
+                <div class="icon-box">
+                  <div class="icon">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAQ1JREFUWEftmNENwjAMRK+TwCgwCTAJMAlsAmwCm1BLVDIlru2EVK6UfKb25enSOHU7BBtdMB40IG1HphxaA9hpAhnPXwCeAO6pXAno1idsMhbzpFwBHMYJKaA9gItHuSB2O3YqBXTsFzh9FiFbB2vJscE1Pi/xSPF8ntY5cwENiCdw0B+hBJUUP6mzOCBpy7wOmXU0h6T3wwtk1lkckNlq5aU262gOtVOmORSuMBbcCqZUd6U2qRYEuYHCbVk7ZbmnzHt1/K0wmu8gpVKbdTSHzEJzAZmtbncZgBCfsCEKI3UF1JfNMUxtEIHw7akFRu4T0NeYaqXJKWqnVxWIHt5WugKDTbL9jtF8CufQG+pGoSV6PdZ3AAAAAElFTkSuQmCC"
+                    />
+                  </div>
+                  <h4 class="yellow">Anibi</h4>
+                  <p>
+                    <u>Projet 3</u>: application web pour la gestion du musée de
+                    l'animation d'Annecy
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-12 col-md-12 mx-auto align-items-stretch mt-3"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <a href="public/tableau_de_competences.pdf">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-book-half"></i></div>
+                  <h4 class="yellow">Tableau de compétences</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div
+              class="col-lg-6 col-md-12 mx-auto align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <a href="stage/première_année.html">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-person"></i></div>
+                  <h4 class="yellow">Stage de première année</h4>
+                  <p>Art Computer</p>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-lg-6 col-md-12 mx-auto align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <a href="stage/seconde_année.html">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-person"></i></div>
+                  <h4 class="yellow">Stage de seconde année</h4>
+                  <p>Compilatio</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Counts Section ======= -->
+      <section id="veille" class="counts">
+        <div class="container" data-aos="fade-up">
+          <div class="row no-gutters">
+            <div
+              class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            ></div>
+            <div
+              class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <div class="content d-flex flex-column justify-content-center">
+                <h3>Veille Technologique</h3>
+                <p>
+                  La veille technologique implique la surveillance et l'analyse
+                  constantes des progrès technologiques dans un domaine
+                  spécifique. Son objectif est de permettre aux professionnels,
+                  chercheurs, étudiants et autres acteurs de rester informés des
+                  dernières tendances, innovations et avancées. Elle est
+                  cruciale pour rester à jour dans son domaine d'activité.
+                </p>
+                <h4 class="mt-3">
+                  Ma veille est axée sur le développement web, étant ce que je
+                  veux faire plus tard
+                </h4>
+                <div class="row">
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-twitter"></i>
+                      <p>
+                        <strong>Twitter</strong> est très utile car de nombreux
+                        comptes officiels sont présents pour donner des
+                        informations importantes tel que les comptes de PHP,
+                        Symfony, JavaScript... En se créant une seconde page de
+                        recommandation, nous pouvons avoir un outil très
+                        puissant avec de nombreux comptes actifs.
+                      </p>
                     </div>
-                </div>
-            </div>
-        </div>
+                  </div>
 
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certif/pix.png" class="img-fluid" alt="" height="1540">
-            <div class="portfolio-info">
-              <h4>Pix</h4>
-              <p>Epreuves</p>
-              <p>Obtenue le 22/03/24</p>
-              <div class="portfolio-links">
-                <a href="https://pix.fr" target="_blank" title="Découvrer Pix"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-bases">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certif/cisco.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Cisco NetAcad</h4>
-              <p>Bases de la sécurité</p>
-              <p>Obtenue le 02/02/23</p>
-              <div class="portfolio-links">
-                <a href="https://www.netacad.com/fr" target="_blank" title="Découvrez NetAcad"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
-          <div class="portfolio-wrap d-flex codingame justify-content-center align-items-center">
-            <img src="assets/img/certif/téléchargement.png" class="img-fluid " alt="">
-            <div class="portfolio-info">
-              <h4>CodinGame</h4>
-              <p>Epreuves</p>
-              <div class="portfolio-links">
-                <a href="https://openclassrooms.com/fr/" target="_blank" title="Découvrez CodinGames"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-epreuves">
-          <div class="portfolio-wrap rootme d-flex justify-content-center align-items-center">
-            <img src="assets/img/certif/root_me_pro.png" class="img-fluid m-lg-5 mx-auto" alt="root me pro" width="232">
-            <div class="portfolio-info">
-              <h4>CCF Root-Me</h4>
-              <p>Epreuves</p>
-                <p>Réalisée en équipe de 5 le 08/11/23</p>
-              <div class="portfolio-links">
-                <a href="https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/" target="_blank" title="Découvrez les CCF Root-Me"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <section id="projet" class="services">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Projets</h2>
-        <p>Mes Projets</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 col-md-12 mx-auto align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-          <a href="projets/awoc.html">
-            <div class="icon-box">
-              <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAT1JREFUWEftl9ERgjAQRJdOtBM7UStRO9FKtBPtRFnHMOFMcgmcgDPhy5HzeNnbyKbBwq5mYTz4a6ADgB2AlZGqj7bXGcCl7cvP7ytXIcIcjUBkG/Y9lQI9fwTDtlRnXQpkxcNxbwOj7yaVOzIrINdHWmB2ICp191aZBLI2sNtNnXE/IL4vo0DWMP6oucX33hdZQJTR6n9G+q63mwBkAQWLRjo61rMCOWGrQprFqkJjFUq+XOfY9sn4MTVQDyYU0KYECo5axo8KJGWSCqVernLeLv2VZG01EMqCVPzwgYbElC8Dh0wkgWKZl79lQx5ZroURJRbQskwti3wlbgA2ooAPY+jiPZNLm2lsNEWrLiEdAiSjaMnz1NoSIPPx5Jg65CGe56mKPDWoqx1SoClEE5sZNgdQA8rpYVpTgTQ5X2YaVCV+T7+ZAAAAAElFTkSuQmCC"/></div>
-              <h4 class='yellow'>AWOC</h4>
-              <p>Un projet de réseau social interne au lycée pour partager des posts sur la culture</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-          <a href="projets/gsb_frais.html">
-            <div class="icon-box">
-              <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAARpJREFUWEftmOENwiAQhZ+TqJvoJOok6iS6iW6iTqJ9iRhsgeOgmCYef5r0etzHA8odM0yszSbGAwOSZiSl0ALARuqgwP4AcAdwDfnGgC6dw6ogmMblDGDXdwgBbQGcND1XfLvuKxUC2ncBDu8glDUobQUElXfqM87R70sCGjhUgDhXf8AGFBLUFJKWmSlkCkkKSPb/XUMlZ2DTP/VTmquAfVJAzIl42vP5aWMerr5C/X6Z7N28uIRgLjTIJH4BlA1D4NZAKpjWQGqYlkDL3DWTk1Mn/6SJrR3b9tEFnFt1jAmkgsmZMk2S7woDN3A1TAyIFQHrsppWBBMD4nt/2rRgxTApINqoFLfuXEn0VWcpfe32QxTM7ockiV672nQlfFALmwAAAABJRU5ErkJggg=="/></div>
-              <h4 class='yellow'>GSB - Frais</h4>
-              <p><u>Projet 1</u>: site de création de fiche de frais pour visiteur médical du groupe GSB</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-          <a href="projets/gsb_visite.html">
-            <div class="icon-box">
-              <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATdJREFUWEftmIENwiAQRX830U10E51EnUQ30U10E+03nDkpGKAcarVJk6ah3Ov93+Nohw87ug/jwSSAriqrsRdKGRMUpyRDKcFSxnw30AzAHsDCwPQXN+cSgFw/wqR4wIDpPiVhBlAhoJXLjhWInncN4KBvhIA2/YBtCxoXZ5cDdOp9xLPmQV+KN/niWUCDByqQaQV+G4iyhOR+S4YIc3Sf9tyTuTkQi+pZQbDeaKjmQGTxaxkLoMjXDIgycbmR6itQGoawTYDEM9ElQUloDqRhJK7vG+1rU6AQDIP7MjUBKoEx81ApjAnQGBgTIN0vizdeecZfj6ub2gfKgTHPUC6MCdDYlqi6ZH+g2Gc9NjOh55N2HX4/YwEic7JPetosxjaKljtX6QiYnUGLW/KzwTJj0/g/ZJqhGzFqhSWNyoKMAAAAAElFTkSuQmCC"/></div>
-              <h4 class='yellow'>GSB - Visite</h4>
-              <p><u>Projet 2</u>: application de rapport de visite pour visiteur médical du groupe GSB</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-          <a href="projets/anibi.html">
-          <div class="icon-box">
-            <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAQ1JREFUWEftmNENwjAMRK+TwCgwCTAJMAlsAmwCm1BLVDIlru2EVK6UfKb25enSOHU7BBtdMB40IG1HphxaA9hpAhnPXwCeAO6pXAno1idsMhbzpFwBHMYJKaA9gItHuSB2O3YqBXTsFzh9FiFbB2vJscE1Pi/xSPF8ntY5cwENiCdw0B+hBJUUP6mzOCBpy7wOmXU0h6T3wwtk1lkckNlq5aU262gOtVOmORSuMBbcCqZUd6U2qRYEuYHCbVk7ZbmnzHt1/K0wmu8gpVKbdTSHzEJzAZmtbncZgBCfsCEKI3UF1JfNMUxtEIHw7akFRu4T0NeYaqXJKWqnVxWIHt5WugKDTbL9jtF8CufQG+pGoSV6PdZ3AAAAAElFTkSuQmCC"/></div>
-            <h4 class='yellow'>Anibi</h4>
-            <p><u>Projet 3</u>: application web pour la gestion du musée de l'animation d'Annecy</p>
-          </div>
-          </a>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-lg-12 col-md-12 mx-auto align-items-stretch mt-3" data-aos="zoom-in" data-aos-delay="100">
-          <a href="public/tableau_de_competences.pdf">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-book-half"></i></div>
-                <h4 class='yellow'>Tableau de compétences</h4>
-            </div>
-          </a>
-        </div>
-      </div>
-
-        <div class="row mt-3">
-            <div class="col-lg-6 col-md-12 mx-auto align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <a href="stage/première_année.html">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bi bi-person"></i></div>
-                        <h4 class='yellow'>Stage de première année</h4>
-                        <p>Art Computer</p>
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-instagram"></i>
+                      <p>
+                        <strong>Instagram</strong> possède une grande quantité
+                        de compte spécialisée dans la veille et la mise à
+                        disposition d'informations. Les posts de ces comptes
+                        sont souvent ludiques et court mais pour autant très
+                        intéressant. L'algorithme aide par ailleurs à trouver de
+                        plus en plus de contenu en lien avec notre veille.
+                      </p>
                     </div>
-                </a>
-            </div>
-            <div class="col-lg-6 col-md-12 mx-auto align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <a href="stage/seconde_année.html">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bi bi-person"></i></div>
-                        <h4 class='yellow'>Stage de seconde année</h4>
-                        <p>Compilatio</p>
+                  </div>
+
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-tiktok"></i>
+                      <p>
+                        <strong>TikTok</strong>, avec ses vidéos de courtes
+                        durées, permet à des comptes de personnes passionnées de
+                        partager des informations sur une période très courte.
+                        Que ce soit pour apprendre des choses sur un domaine
+                        particulier ou voir les dernières informations cyber,
+                        TikTok est très utile.
+                      </p>
                     </div>
-                </a>
+                  </div>
+
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-book"></i>
+                      <p>
+                        <strong>Feedly</strong> est un agrégateur de flux RSS en
+                        ligne et possède une application. Il permet de
+                        centraliser les nouveautés de sites web ou autre source
+                        d'informations pour que nous y ayons accès en un seul
+                        point.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End .content-->
             </div>
+          </div>
         </div>
+      </section>
+      <!-- End Counts Section -->
+    </main>
+    <!-- End #main -->
 
-    </div>
-  </section>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="text-center">
+      <span>Portfolio Kylian PATRY 2024</span>
+    </footer>
+    <!-- End Footer -->
 
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- ======= Counts Section ======= -->
-  <section id="veille" class="counts">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row no-gutters">
-        <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-        <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
-          <div class="content d-flex flex-column justify-content-center">
-            <h3>Veille Technologique</h3>
-            <p>La veille technologique implique la surveillance et l'analyse constantes des progrès technologiques dans
-                un domaine spécifique. Son objectif est de permettre aux professionnels, chercheurs, étudiants et autres
-                acteurs de rester informés des dernières tendances, innovations et avancées. Elle est cruciale pour
-                rester à jour dans son domaine d'activité.
-            </p>
-            <h4 class="mt-3">Ma veille est axée sur le développement web, étant ce que je veux faire plus tard</h4>
-            <div class="row">
-              <div class="col-md-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="bi bi-twitter"></i>
-                  <p><strong>Twitter</strong> est très utile car de nombreux comptes officiels sont présents pour donner
-                      des informations importantes tel que les comptes de PHP, Symfony, JavaScript... En se créant une
-                      seconde page de recommandation, nous pouvons avoir un outil très puissant avec de nombreux comptes
-                      actifs.</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="bi bi-instagram"></i>
-                  <p><strong>Instagram</strong> possède une grande quantité de compte spécialisée dans la veille et la
-                      mise à disposition d'informations. Les posts de ces comptes sont souvent ludiques et court mais
-                      pour autant très intéressant. L'algorithme aide par ailleurs à trouver de plus en plus de contenu
-                      en lien avec notre veille.</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="bi bi-tiktok"></i>
-                  <p><strong>TikTok</strong>, avec ses vidéos de courtes durées, permet à des comptes de personnes
-                      passionnées de partager des informations sur une période très courte. Que ce soit pour apprendre
-                      des choses sur un domaine particulier ou voir les dernières informations cyber, TikTok est très
-                      utile.</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="bi bi-book"></i>
-                  <p><strong>Feedly</strong> est un agrégateur de flux RSS en ligne et possède une application. Il
-                      permet de centraliser les nouveautés de sites web ou autre source d'informations pour que nous y
-                      ayons accès en un seul point. </p>
-                </div>
-              </div>
-            </div>
-          </div><!-- End .content-->
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Counts Section -->
-
-</main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<footer id="footer" class="text-center">
-    <span>Portfolio Kylian PATRY 2024</span>
-</footer><!-- End Footer -->
-
-<div id="preloader"></div>
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
